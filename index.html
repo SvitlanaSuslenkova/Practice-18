@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="icons8-cat-48.png">
+  <link rel="stylesheet" href="style.css"> 
+  <title>Frontend Mentor | Intro section with dropdown navigation</title>
+</head>
+<body>
+<main>
+<header class="myHeader">
+  <div class="head headmenu"><!--class="snapdesktop"-->
+      <img class="logoimg" src="logo.svg" alt="snap">
+      <img class="menuimg" src="icon-menu.svg" alt="menu">
+  </div>
+
+  <div class="menubox"></div>
+  
+  <div class="menu menuMobDesk" ><!--class="menudesktop"-->
+    <img class="closeimg" src="icon-close-menu.svg" alt="X"> 
+    <ul class="menuleft">
+      <li class="features">
+        <a href="javascript:void(0)" class="dropbtn">Features<img class="arrow" src="icon-arrow-down.svg" alt=""></a>
+        <div class="dropdown-content dropdown-content-left">
+          <a href="#" class="droplist" >Todo list</a>
+          <a href="#" class="droplist">Calendar</a>
+          <a href="#" class="droplist">Reminders</a>
+          <a href="#" class="droplist">Planning</a>
+        </div>
+      </li>
+      <li class="company">
+        <a href="javascript:void(0)" class="dropbtn">Company<img class="arrow" src="icon-arrow-down.svg" alt=""></a>
+        <div class="dropdown-content dropdown-content-right">
+          <a href="#" class="droplist">History</a>
+          <a href="#" class="droplist">Our Team</a>
+          <a href="#" class="droplist">Blog</a>
+        </div>
+      </li> 
+      <li><a href="javascript:void(0)">Careers</a></li>
+      <li><a href="javascript:void(0)">About</a></li>
+    </ul>
+
+    <ul class="menuright">
+      <li class="login"><a href="javascript:void(0)">Login</a></li>
+      <li><button class="register">Register</button></li>
+    </ul>
+  </div>
+  
+</header>
+<img class="imgHeroMobile" src="image-hero-mobile.png" alt="image">
+<img class="imgHeroTablet" src="image-hero-tablet.png" alt="image">
+<section class="section1">
+<h1>Make remote work</h1>
+<p>Get your team in sync, no matter your location. Streamline processes, 
+  create team rituals, and watch productivity soar.</p>
+<button class="learnmore">Learn more</button>
+</section>
+
+<section class="section2">
+  <img class="clientimg" src="client-databiz.svg" alt="databiz">
+  <img class="clientimg" src="client-audiophile.svg" alt="audiophile">
+  <img class="clientimg" src="client-meet.svg" alt="meet">
+  <img class="clientimg" src="client-maker.svg" alt="maker">
+</section>
+
+<img class="imgHeroDesktop" src="image-hero-desktop.png" alt="image">  
+</main>  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Svitlana Suslencova</a>.
+  </div>
+<script src="script.js" defer></script>  
+</body>
+</html>
