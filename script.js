@@ -1,3 +1,4 @@
+'use strict';
 const menushadowMobile = document.querySelector('.menubox');
 const menuMobile = document.querySelector('.menu');
 const menuimg = document.querySelector('.menuimg');
