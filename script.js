@@ -50,7 +50,8 @@ document.addEventListener("click", function(e) {
     for (let j = 0; j < dropdownContent.length; j++) {   
         if (dropdownContent[j].classList.contains("displayGrid")==true 
         && e.target !== dropdownContent[j] 
-        && e.target !== buttonFordropdownContent[j])
+        && e.target !== buttonFordropdownContent[j]
+        && screensize.matches)
         {dropdownContent[j].classList.remove("displayGrid");
         arrow[j].classList.remove("arrowRotate");
         }        
